@@ -135,7 +135,7 @@ BTC_TIME_lock:
 ## BTC_TIME_lock 解锁逻辑
 
 ```yaml
-lock.args: lock_hash | after | %new_bitcoin_tx%
+lock.args: lock_script | after | %new_bitcoin_tx%
 ```
 
 - lock_script 为解锁后需要释放到的目标接受者
